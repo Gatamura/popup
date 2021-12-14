@@ -8,17 +8,25 @@
     <title>Pop up</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <img src="Rectangle 218.png" />
-</header>
 
 <body>
-    <div>
-        <p>Ganhe <span>10% de desconto </span>na primeira compra</p>
-        <p>Cadastre-se e receba ofertas exclusivas em primeira mão.</p>
-        <form>nome</form>
-        <p>e-mail</p>
-        <p>Aceito receber promoções e informações em meu e-mail.</p>
+    <div class="discountModal__outWrapper">
+        <header>
+            <img src="Rectangle 218.png" />
+        </header>
+        <div class="discountModal__innerWrapper">
+            <p class="discountModal__title">Ganhe <span class="discountModal__title--label">10% de desconto </span>na primeira compra</p>
+            <p class="discountModal__subtitle">Cadastre-se e receba ofertas exclusivas em primeira mão.</p>
+            <div class="discountModal__actionsWrapper">
+                <input class="discountModal_field" type="text" placeholder="Nome" />
+                <input class="discountModal_field" type="text" placeholder="Digite seu e-mail" />
+                <button>Cadastrar</button>
+                <div class="discountModal__confirmationWrapper">
+                    <input class="discountModal__checkbox" type="checkbox" />
+                    <label class="discountModal__alertTitle">Aceito receber promoções e informações em meu e-mail.</label>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="scripts.js"></script>
 </body>
