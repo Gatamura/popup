@@ -1,0 +1,26 @@
+p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #004C98;
+}
+span{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+color: #8ABD06;
+}
+div{
+    max-width: 828px;
+    max-height: 634px;
+    background: white;
+}
+body{
+    background: red;
+}
